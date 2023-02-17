@@ -1,0 +1,39 @@
+body{
+  background: grey
+
+
+
+
+}
+
+
+nav {
+ display: flex;
+ width: 100%;
+ background: brown;
+ margin-bottom: 20px
+ text-align: center;
+
+}
+
+nav a {
+
+
+
+ padding: 10px 20px;
+ color: white;
+
+
+}
+
+nav a:hover {
+   color: black;
+background: yellow;
+
+
+
+}
+
+img{
+padding:12px
+}

@@ -1,0 +1,31 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static  'blog/css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+
+     <a href="{% url 'home' %}"> HOME </a>
+     <a href="{% url 'create' %}"> CREATE NEW POST </a>
+     <a href="{% url 'about' %}"> ABOUT </a>
+     <a href="{% url 'contact' %}"> CONTACT </a>
+
+
+
+
+
+
+
+
+ </nav>
+
+<h3> THIS IS ABOUT </h3>
+
+</body>
+</html>
